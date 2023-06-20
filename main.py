@@ -2,8 +2,8 @@ import sys
 import os
 from PIL import Image
 
-inputdir = r'C:\Users\saadbasheer\Desktop\Code\Python\Projects\jpgtopngconverter\input'
-outputdir = r'C:\Users\saadbasheer\Desktop\Code\Python\Projects\jpgtopngconverter\output'
+inputdir = 
+outputdir = 
 
 for index,images in enumerate(os.listdir(inputdir),start=1):
     imagedir = os.path.join(inputdir,images)
